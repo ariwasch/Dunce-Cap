@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,46 @@
 		9512469F2432DFD500A78409 /* DunceCap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9512469D2432DFD500A78409 /* DunceCap.xcdatamodeld */; };
 		951246A12432DFD700A78409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951246A02432DFD700A78409 /* Assets.xcassets */; };
 		951246A42432DFD700A78409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951246A22432DFD700A78409 /* LaunchScreen.storyboard */; };
+		951246AC24339BFB00A78409 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951246AB24339BFB00A78409 /* GameController.swift */; };
+		9587A8D9243BCF09003C49ED /* Starting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9587A8D8243BCF09003C49ED /* Starting.swift */; };
+		9587A8DB243C02B7003C49ED /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9587A8DA243C02B6003C49ED /* GameOver.swift */; };
+		9587A8DE243C105E003C49ED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9587A8DD243C105E003C49ED /* AVFoundation.framework */; };
+		958A8F52243E9C8B007B3667 /* beep-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 958A8F51243E9C8B007B3667 /* beep-3.wav */; };
+		95BC945B24426F0400343342 /* icon_Menu.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944124426F0300343342 /* icon_Menu.png.meta */; };
+		95BC945C24426F0400343342 /* icon_Change.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944224426F0300343342 /* icon_Change.png */; };
+		95BC945D24426F0400343342 /* icon_Shop.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944324426F0300343342 /* icon_Shop.png.meta */; };
+		95BC945E24426F0400343342 /* icon_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944424426F0300343342 /* icon_Back.png */; };
+		95BC945F24426F0400343342 /* icon_BackBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944524426F0300343342 /* icon_BackBtn.png */; };
+		95BC946024426F0400343342 /* icon_Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944624426F0300343342 /* icon_Play.png */; };
+		95BC946124426F0400343342 /* icon_Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944724426F0300343342 /* icon_Settings.png */; };
+		95BC946224426F0400343342 /* icon_Modes.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944824426F0300343342 /* icon_Modes.png */; };
+		95BC946324426F0400343342 /* icon_Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944924426F0300343342 /* icon_Help.png */; };
+		95BC946424426F0400343342 /* icon_Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944A24426F0300343342 /* icon_Menu.png */; };
+		95BC946524426F0400343342 /* icon_Restart.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944B24426F0300343342 /* icon_Restart.png.meta */; };
+		95BC946624426F0400343342 /* icon_Stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944C24426F0300343342 /* icon_Stats.png */; };
+		95BC946724426F0400343342 /* icon_Tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944D24426F0300343342 /* icon_Tutorial.png */; };
+		95BC946824426F0400343342 /* icon_BackBtn.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944E24426F0300343342 /* icon_BackBtn.png.meta */; };
+		95BC946924426F0400343342 /* icon_Settings.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC944F24426F0300343342 /* icon_Settings.png.meta */; };
+		95BC946A24426F0400343342 /* icon_Help.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945024426F0300343342 /* icon_Help.png.meta */; };
+		95BC946B24426F0400343342 /* icon_Shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945124426F0300343342 /* icon_Shop.png */; };
+		95BC946C24426F0400343342 /* icon_Play.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945224426F0300343342 /* icon_Play.png.meta */; };
+		95BC946D24426F0400343342 /* icon_Palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945324426F0300343342 /* icon_Palette.png */; };
+		95BC946E24426F0400343342 /* icon_Stats.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945424426F0300343342 /* icon_Stats.png.meta */; };
+		95BC946F24426F0400343342 /* icon_Restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945524426F0300343342 /* icon_Restart.png */; };
+		95BC947024426F0400343342 /* icon_Change.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945624426F0300343342 /* icon_Change.png.meta */; };
+		95BC947124426F0400343342 /* icon_Tutorial.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945724426F0300343342 /* icon_Tutorial.png.meta */; };
+		95BC947224426F0400343342 /* icon_Modes.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945824426F0300343342 /* icon_Modes.png.meta */; };
+		95BC947324426F0400343342 /* icon_Palette.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945924426F0300343342 /* icon_Palette.png.meta */; };
+		95BC947424426F0400343342 /* icon_Back.png.meta in Resources */ = {isa = PBXBuildFile; fileRef = 95BC945A24426F0300343342 /* icon_Back.png.meta */; };
+		95CFFA892442AADA003D4042 /* Match-Abort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFA882442AADA003D4042 /* Match-Abort.mp3 */; };
+		95CFFA8B2442B25C003D4042 /* dunceicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFA8A2442B25C003D4042 /* dunceicon.png */; };
+		95CFFA8D2442B361003D4042 /* dunceT.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFA8C2442B360003D4042 /* dunceT.png */; };
+		95CFFA8F2444CF17003D4042 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFA8E2444CF16003D4042 /* InfoPage.swift */; };
+		A18CC5AD5733A68C530A231F /* Pods_DunceCap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907CB0A5298F58889840BA95 /* Pods_DunceCap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		907CB0A5298F58889840BA95 /* Pods_DunceCap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DunceCap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		951246912432DFD500A78409 /* DunceCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DunceCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951246942432DFD500A78409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		951246962432DFD500A78409 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +63,43 @@
 		951246A02432DFD700A78409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		951246A32432DFD700A78409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		951246A52432DFD700A78409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951246AB24339BFB00A78409 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		9587A8D8243BCF09003C49ED /* Starting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starting.swift; sourceTree = "<group>"; };
+		9587A8DA243C02B6003C49ED /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		9587A8DD243C105E003C49ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		958A8F51243E9C8B007B3667 /* beep-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "beep-3.wav"; path = "../../../Downloads/beep-3.wav"; sourceTree = "<group>"; };
+		95BC944124426F0300343342 /* icon_Menu.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Menu.png.meta; sourceTree = "<group>"; };
+		95BC944224426F0300343342 /* icon_Change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Change.png; sourceTree = "<group>"; };
+		95BC944324426F0300343342 /* icon_Shop.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Shop.png.meta; sourceTree = "<group>"; };
+		95BC944424426F0300343342 /* icon_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Back.png; sourceTree = "<group>"; };
+		95BC944524426F0300343342 /* icon_BackBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_BackBtn.png; sourceTree = "<group>"; };
+		95BC944624426F0300343342 /* icon_Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Play.png; sourceTree = "<group>"; };
+		95BC944724426F0300343342 /* icon_Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Settings.png; sourceTree = "<group>"; };
+		95BC944824426F0300343342 /* icon_Modes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Modes.png; sourceTree = "<group>"; };
+		95BC944924426F0300343342 /* icon_Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Help.png; sourceTree = "<group>"; };
+		95BC944A24426F0300343342 /* icon_Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Menu.png; sourceTree = "<group>"; };
+		95BC944B24426F0300343342 /* icon_Restart.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Restart.png.meta; sourceTree = "<group>"; };
+		95BC944C24426F0300343342 /* icon_Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Stats.png; sourceTree = "<group>"; };
+		95BC944D24426F0300343342 /* icon_Tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Tutorial.png; sourceTree = "<group>"; };
+		95BC944E24426F0300343342 /* icon_BackBtn.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_BackBtn.png.meta; sourceTree = "<group>"; };
+		95BC944F24426F0300343342 /* icon_Settings.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Settings.png.meta; sourceTree = "<group>"; };
+		95BC945024426F0300343342 /* icon_Help.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Help.png.meta; sourceTree = "<group>"; };
+		95BC945124426F0300343342 /* icon_Shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Shop.png; sourceTree = "<group>"; };
+		95BC945224426F0300343342 /* icon_Play.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Play.png.meta; sourceTree = "<group>"; };
+		95BC945324426F0300343342 /* icon_Palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Palette.png; sourceTree = "<group>"; };
+		95BC945424426F0300343342 /* icon_Stats.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Stats.png.meta; sourceTree = "<group>"; };
+		95BC945524426F0300343342 /* icon_Restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Restart.png; sourceTree = "<group>"; };
+		95BC945624426F0300343342 /* icon_Change.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Change.png.meta; sourceTree = "<group>"; };
+		95BC945724426F0300343342 /* icon_Tutorial.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Tutorial.png.meta; sourceTree = "<group>"; };
+		95BC945824426F0300343342 /* icon_Modes.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Modes.png.meta; sourceTree = "<group>"; };
+		95BC945924426F0300343342 /* icon_Palette.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Palette.png.meta; sourceTree = "<group>"; };
+		95BC945A24426F0300343342 /* icon_Back.png.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon_Back.png.meta; sourceTree = "<group>"; };
+		95CFFA882442AADA003D4042 /* Match-Abort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Match-Abort.mp3"; path = "../../../Downloads/Match-Abort.mp3"; sourceTree = "<group>"; };
+		95CFFA8A2442B25C003D4042 /* dunceicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dunceicon.png; path = ../../../Downloads/dunceicon.png; sourceTree = "<group>"; };
+		95CFFA8C2442B360003D4042 /* dunceT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dunceT.png; path = ../../dunceT.png; sourceTree = "<group>"; };
+		95CFFA8E2444CF16003D4042 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		991117362CC7EDA97A55A0F1 /* Pods-DunceCap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DunceCap.release.xcconfig"; path = "Target Support Files/Pods-DunceCap/Pods-DunceCap.release.xcconfig"; sourceTree = "<group>"; };
+		F6130304B5A39E1257A41071 /* Pods-DunceCap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DunceCap.debug.xcconfig"; path = "Target Support Files/Pods-DunceCap/Pods-DunceCap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +107,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9587A8DE243C105E003C49ED /* AVFoundation.framework in Frameworks */,
+				A18CC5AD5733A68C530A231F /* Pods_DunceCap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B272C81419B31DB31FD20A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6130304B5A39E1257A41071 /* Pods-DunceCap.debug.xcconfig */,
+				991117362CC7EDA97A55A0F1 /* Pods-DunceCap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		951246882432DFD500A78409 = {
 			isa = PBXGroup;
 			children = (
 				951246932432DFD500A78409 /* DunceCap */,
 				951246922432DFD500A78409 /* Products */,
+				9587A8DC243C105E003C49ED /* Frameworks */,
+				50B272C81419B31DB31FD20A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +148,65 @@
 				951246942432DFD500A78409 /* AppDelegate.swift */,
 				951246962432DFD500A78409 /* SceneDelegate.swift */,
 				951246982432DFD500A78409 /* ViewController.swift */,
+				9587A8DA243C02B6003C49ED /* GameOver.swift */,
+				951246AB24339BFB00A78409 /* GameController.swift */,
+				9587A8D8243BCF09003C49ED /* Starting.swift */,
+				95CFFA882442AADA003D4042 /* Match-Abort.mp3 */,
+				958A8F51243E9C8B007B3667 /* beep-3.wav */,
+				95CFFA8C2442B360003D4042 /* dunceT.png */,
+				95CFFA8A2442B25C003D4042 /* dunceicon.png */,
 				9512469A2432DFD500A78409 /* Main.storyboard */,
+				95CFFA8E2444CF16003D4042 /* InfoPage.swift */,
 				951246A02432DFD700A78409 /* Assets.xcassets */,
 				951246A22432DFD700A78409 /* LaunchScreen.storyboard */,
 				951246A52432DFD700A78409 /* Info.plist */,
 				9512469D2432DFD500A78409 /* DunceCap.xcdatamodeld */,
+				95BC944024426F0300343342 /* Menu */,
 			);
 			path = DunceCap;
+			sourceTree = "<group>";
+		};
+		9587A8DC243C105E003C49ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9587A8DD243C105E003C49ED /* AVFoundation.framework */,
+				907CB0A5298F58889840BA95 /* Pods_DunceCap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BC944024426F0300343342 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				95BC944124426F0300343342 /* icon_Menu.png.meta */,
+				95BC944224426F0300343342 /* icon_Change.png */,
+				95BC944324426F0300343342 /* icon_Shop.png.meta */,
+				95BC944424426F0300343342 /* icon_Back.png */,
+				95BC944524426F0300343342 /* icon_BackBtn.png */,
+				95BC944624426F0300343342 /* icon_Play.png */,
+				95BC944724426F0300343342 /* icon_Settings.png */,
+				95BC944824426F0300343342 /* icon_Modes.png */,
+				95BC944924426F0300343342 /* icon_Help.png */,
+				95BC944A24426F0300343342 /* icon_Menu.png */,
+				95BC944B24426F0300343342 /* icon_Restart.png.meta */,
+				95BC944C24426F0300343342 /* icon_Stats.png */,
+				95BC944D24426F0300343342 /* icon_Tutorial.png */,
+				95BC944E24426F0300343342 /* icon_BackBtn.png.meta */,
+				95BC944F24426F0300343342 /* icon_Settings.png.meta */,
+				95BC945024426F0300343342 /* icon_Help.png.meta */,
+				95BC945124426F0300343342 /* icon_Shop.png */,
+				95BC945224426F0300343342 /* icon_Play.png.meta */,
+				95BC945324426F0300343342 /* icon_Palette.png */,
+				95BC945424426F0300343342 /* icon_Stats.png.meta */,
+				95BC945524426F0300343342 /* icon_Restart.png */,
+				95BC945624426F0300343342 /* icon_Change.png.meta */,
+				95BC945724426F0300343342 /* icon_Tutorial.png.meta */,
+				95BC945824426F0300343342 /* icon_Modes.png.meta */,
+				95BC945924426F0300343342 /* icon_Palette.png.meta */,
+				95BC945A24426F0300343342 /* icon_Back.png.meta */,
+			);
+			name = Menu;
+			path = ../../../Downloads/Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951246A82432DFD700A78409 /* Build configuration list for PBXNativeTarget "DunceCap" */;
 			buildPhases = (
+				A25EAFFC2DD71A470060CC6B /* [CP] Check Pods Manifest.lock */,
 				9512468D2432DFD500A78409 /* Sources */,
 				9512468E2432DFD500A78409 /* Frameworks */,
 				9512468F2432DFD500A78409 /* Resources */,
+				D70BA24C947E39C71F241D9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,12 +270,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				951246A42432DFD700A78409 /* LaunchScreen.storyboard in Resources */,
+				95BC946224426F0400343342 /* icon_Modes.png in Resources */,
+				95BC945E24426F0400343342 /* icon_Back.png in Resources */,
+				95BC946F24426F0400343342 /* icon_Restart.png in Resources */,
 				951246A12432DFD700A78409 /* Assets.xcassets in Resources */,
+				95BC946C24426F0400343342 /* icon_Play.png.meta in Resources */,
+				95BC946324426F0400343342 /* icon_Help.png in Resources */,
+				95BC947124426F0400343342 /* icon_Tutorial.png.meta in Resources */,
+				95BC945C24426F0400343342 /* icon_Change.png in Resources */,
+				95BC947424426F0400343342 /* icon_Back.png.meta in Resources */,
+				95BC946824426F0400343342 /* icon_BackBtn.png.meta in Resources */,
+				95CFFA892442AADA003D4042 /* Match-Abort.mp3 in Resources */,
+				95BC946B24426F0400343342 /* icon_Shop.png in Resources */,
+				95CFFA8D2442B361003D4042 /* dunceT.png in Resources */,
+				95BC947224426F0400343342 /* icon_Modes.png.meta in Resources */,
+				95BC946024426F0400343342 /* icon_Play.png in Resources */,
+				95BC947324426F0400343342 /* icon_Palette.png.meta in Resources */,
+				95BC945B24426F0400343342 /* icon_Menu.png.meta in Resources */,
+				95BC946624426F0400343342 /* icon_Stats.png in Resources */,
+				95BC945F24426F0400343342 /* icon_BackBtn.png in Resources */,
+				958A8F52243E9C8B007B3667 /* beep-3.wav in Resources */,
 				9512469C2432DFD500A78409 /* Main.storyboard in Resources */,
+				95BC947024426F0400343342 /* icon_Change.png.meta in Resources */,
+				95BC946524426F0400343342 /* icon_Restart.png.meta in Resources */,
+				95BC946424426F0400343342 /* icon_Menu.png in Resources */,
+				95CFFA8B2442B25C003D4042 /* dunceicon.png in Resources */,
+				95BC946124426F0400343342 /* icon_Settings.png in Resources */,
+				95BC946E24426F0400343342 /* icon_Stats.png.meta in Resources */,
+				95BC946724426F0400343342 /* icon_Tutorial.png in Resources */,
+				95BC946D24426F0400343342 /* icon_Palette.png in Resources */,
+				95BC945D24426F0400343342 /* icon_Shop.png.meta in Resources */,
+				95BC946924426F0400343342 /* icon_Settings.png.meta in Resources */,
+				95BC946A24426F0400343342 /* icon_Help.png.meta in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A25EAFFC2DD71A470060CC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DunceCap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D70BA24C947E39C71F241D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DunceCap/Pods-DunceCap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DunceCap/Pods-DunceCap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DunceCap/Pods-DunceCap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9512468D2432DFD500A78409 /* Sources */ = {
@@ -142,9 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9512469F2432DFD500A78409 /* DunceCap.xcdatamodeld in Sources */,
+				951246AC24339BFB00A78409 /* GameController.swift in Sources */,
+				95CFFA8F2444CF17003D4042 /* InfoPage.swift in Sources */,
+				9587A8DB243C02B7003C49ED /* GameOver.swift in Sources */,
 				951246992432DFD500A78409 /* ViewController.swift in Sources */,
 				951246952432DFD500A78409 /* AppDelegate.swift in Sources */,
 				951246972432DFD500A78409 /* SceneDelegate.swift in Sources */,
+				9587A8D9243BCF09003C49ED /* Starting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +503,13 @@
 		};
 		951246A92432DFD700A78409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6130304B5A39E1257A41071 /* Pods-DunceCap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
 				INFOPLIST_FILE = DunceCap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +517,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.DunceCap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		951246AA2432DFD700A78409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991117362CC7EDA97A55A0F1 /* Pods-DunceCap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
 				INFOPLIST_FILE = DunceCap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.DunceCap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
